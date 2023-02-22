@@ -1,0 +1,20 @@
+{
+  "name": "devcm-orm-23",
+  "version": "1.0.0",
+  "description": "Challenge-13",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian1512-FE/DevCM-ORM-23.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian1512-FE/DevCM-ORM-23/issues"
+  },
+  "homepage": "https://github.com/christian1512-FE/DevCM-ORM-23#readme"
+}
