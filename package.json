@@ -2,9 +2,10 @@
   "name": "devcm-orm-23",
   "version": "1.0.0",
   "description": "Challenge-13",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/christian1512-FE/DevCM-ORM-23/issues"
   },
-  "homepage": "https://github.com/christian1512-FE/DevCM-ORM-23#readme"
+  "homepage": "https://github.com/christian1512-FE/DevCM-ORM-23#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.29.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
 }
